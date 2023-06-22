@@ -13,14 +13,93 @@
       crossorigin="anonymous"
     />
 
+    <link rel="stylesheet" href="style.css" />
+
     <title>Document</title>
   </head>
   <body>
+    <nav
+      class="navbar navbar-expand-lg shadow-sm overflow-hidden navbar-dark bg-primary"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Car Emporium</a>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
+    <h1 class="h1 text-center m-2">Welcome to the Car Emporium</h1>
 
-    
+    <!--Table data  -->
 
-
+    <div class="container mt-4">
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Car</th>
+              <th scope="col">Model</th>
+              <th scope="col">Year</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Toyota</td>
+              <td>Camry</td>
+              <td>2022</td>
+              <td>$30,000</td>
+            </tr>
+            <tr>
+              <td>Honda</td>
+              <td>Accord</td>
+              <td>2021</td>
+              <td>$28,000</td>
+            </tr>
+            <tr>
+              <td>Ford</td>
+              <td>Mustang</td>
+              <td>2023</td>
+              <td>$40,000</td>
+            </tr>
+            <tr>
+              <td>Chevrolet</td>
+              <td>Camaro</td>
+              <td>2022</td>
+              <td>$35,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
 
     <!-- JS link -->
     <script
